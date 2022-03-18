@@ -1,0 +1,9 @@
+class K3 
+{
+	public static void main(String[] args) 
+	{
+		char []a=new char[7];
+		System.out.println(a);
+		System.out.println(a[0]);
+	}
+}
