@@ -1,0 +1,13 @@
+//CTE Because Compairing Different Literals Value
+
+class Program44 
+{
+	public static void main(String[] args) 
+	{
+		boolean a=true;
+		String b="false";
+		String c="true";
+		System.out.println(a==b);//CTE
+		System.out.println(a==c);
+	}
+}

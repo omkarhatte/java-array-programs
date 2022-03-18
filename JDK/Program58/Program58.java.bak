@@ -1,0 +1,33 @@
+class Program58 
+{
+	public static void main(String[] args) 
+	{
+		int a=10;
+		int b=25;
+		int c=28;
+		int maximum;
+		if (a>b)
+		{
+			if (a>c)
+			{
+				maximum=a;
+			}
+			else
+			{
+				maximum=b;
+			}
+		}
+		else
+		{
+			if (b>c)
+			{
+				maximum=b;
+			}
+			else
+			{
+				maximum=c;
+			}
+		}
+		System.out.println(maximum+"is the maximum");
+	}
+}

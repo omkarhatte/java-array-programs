@@ -1,0 +1,14 @@
+class Program1 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(10+10);
+		System.out.println(10+'a');
+		System.out.println(10+10+'b');
+		System.out.println(10+'a'+"hello");
+		System.out.println("hello"+10+"hi"+"bye");
+		System.out.println(20+20+'a'+'b');
+		System.out.println('a'+"hello"+10+20);
+		//System.out.println('a'+'b');
+	}
+}
